@@ -1,0 +1,17 @@
+This applicaiton uses several image assets from http://thenounproject.com
+
+All free assets are attributed to their respective artists in the image asset file.
+This note is to acknowledge both the artists and The Noun Project for their contriobutions to this free demo / prototype.
+
+
+Additionally, this project leverages open-source software from:
+AlamoFire: https://github.com/Alamofire/Alamofire
+
+and
+
+SwiftyJSON: https://github.com/SwiftyJSON/SwiftyJSON
+
+Source code is available through their respective websites, linked above or within the pod files of this project.
+
+Enjoy!
+-Daniel O'Rorke'
