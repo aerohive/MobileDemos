@@ -16,6 +16,8 @@
 		85EE26C91CB476C4000B341E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85EE26C71CB476C4000B341E /* LaunchScreen.storyboard */; };
 		85EE26D11CB58B9F000B341E /* Aknowkedgements.txt in Resources */ = {isa = PBXBuildFile; fileRef = 85EE26D01CB58B9F000B341E /* Aknowkedgements.txt */; };
 		85EE26D31CB58CF7000B341E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 85EE26D21CB58CF7000B341E /* Podfile */; };
+		85EE26D51CBD903F000B341E /* AerohiveAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE26D41CBD903F000B341E /* AerohiveAPIManager.swift */; };
+		85EE26D71CBD9151000B341E /* OAuthWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE26D61CBD9151000B341E /* OAuthWebViewController.swift */; };
 		89648AE3D86FFA256E41A8AC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5187CC226A9C9F3E84532D /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +34,9 @@
 		85EE26C81CB476C4000B341E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85EE26CA1CB476C4000B341E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85EE26D01CB58B9F000B341E /* Aknowkedgements.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Aknowkedgements.txt; sourceTree = "<group>"; };
-		85EE26D21CB58CF7000B341E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		85EE26D21CB58CF7000B341E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		85EE26D41CBD903F000B341E /* AerohiveAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AerohiveAPIManager.swift; sourceTree = "<group>"; };
+		85EE26D61CBD9151000B341E /* OAuthWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthWebViewController.swift; sourceTree = "<group>"; };
 		F92C6ACDC6EE8D4DE8639BA4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +92,8 @@
 		85EE26B81CB476C4000B341E /* MobileDemos */ = {
 			isa = PBXGroup;
 			children = (
+				85EE26D41CBD903F000B341E /* AerohiveAPIManager.swift */,
+				85EE26D61CBD9151000B341E /* OAuthWebViewController.swift */,
 				85EE26B91CB476C4000B341E /* AppDelegate.swift */,
 				85EE26BE1CB476C4000B341E /* MasterViewController.swift */,
 				85EE26C01CB476C4000B341E /* DetailViewController.swift */,
@@ -229,6 +235,8 @@
 				85EE26BA1CB476C4000B341E /* AppDelegate.swift in Sources */,
 				85EE26BF1CB476C4000B341E /* MasterViewController.swift in Sources */,
 				85EE26C11CB476C4000B341E /* DetailViewController.swift in Sources */,
+				85EE26D51CBD903F000B341E /* AerohiveAPIManager.swift in Sources */,
+				85EE26D71CBD9151000B341E /* OAuthWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

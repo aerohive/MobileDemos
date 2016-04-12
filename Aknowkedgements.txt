@@ -6,10 +6,11 @@ This note is to acknowledge both the artists and The Noun Project for their cont
 
 Additionally, this project leverages open-source software from:
 AlamoFire: https://github.com/Alamofire/Alamofire
+SwiftyJSON: https://github.com/SwiftyJSON/SwiftyJSON
 
 and
 
-SwiftyJSON: https://github.com/SwiftyJSON/SwiftyJSON
+Locksmith: https://github.com/matthewpalmer/Locksmith
 
 Source code is available through their respective websites, linked above or within the pod files of this project.
 
